@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta content="charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- import iconscout CDN link icons-->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+   <!-- import scroll reveal CDN link -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <link rel="stylesheet" href="style.css">
+   <title>Responsive Portfolio Website with Multi Themes in HTML CSS And JS | Personal Website from Scratch</title>
+</head>
+<body>
+   <div class="container">
+      <!-- navbar -->
+       <nav>
+         <a href="#" class="logo"><span>PORT</span>Folyo</a>
+         <ul>
+            <li><a href="#Home" onclick="listItems()">Home<br><span>Home</span></a></li>
+            <li><a href="#About" onclick="listItems()">About<br><span>About</span></a></li>
+            <li><a href="#Project" onclick="listItems()">Projects<br><span>Projects</span></a></li>
+            <li><a href="#Skills" onclick="listItems()">Skills<br><span>Skills</span></a></li>
+            <li><a href="#Contact" onclick="listItems()">Contact<br><span>Contact</span></a></li>
+         </ul>
+         <div class="toggle">
+            <i class="uil uil-moon"></i>
+            <i class="uil uil-sun"></i>
+            <i class="uil uil-bars" onclick="listItems()"></i>
+         </div>
+       </nav>
+
+      <!-- header/Home section -->
+       <section class="Home" id="Home">
+         <div class="text">
+            <div class="textcontainer">
+               <span class="reveal">Hey!</span>
+               <h1 class="reveal">Alexgender Lio</h1>
+               <h5 class="reveal">Specially: Backend Developer</h5>
+               <p class="reveal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum exercitationem numquam aliquid vero! Molestias animi eius voluptatem tenetur iure alias optio, eveniet laborum soluta temporibus.</p>
+               <a href="CV Sample.pdf" download target="_blank" class="reveal"><i class="uil uil-import"></i>Download CV</a>
+               <a href="#" class="hireme reveal">Hire Me</a>
+            </div>
+         </div>
+         <div class="profile">
+            <div class="featured">
+               <span style="--i:1">Web Developer</span>
+               <span style="--i:2">Programmer</span>
+               <span style="--i:3">Script Writer</span>
+               <span style="--i:4">Graphic Designer</span>
+            </div>
+            <div class="canvas">
+               <img src="profile.jpg" alt="user-profile">
+            </div>
+         </div>
+       </section>
+
+      <!-- about section -->
+       <scetion class="About page" id="About">
+         <div class="userdetails">
+            <div class="details">
+               <div class="imgbox reveal">
+                  <img src="profile.jpg" alt="user-profile">
+               </div>
+               <h1 class="reveal">Alexgender Lio</h1>
+               <h5 class="reveal">Backend Developer</h5>
+               <div class="socialmedia">
+                  <i class="uil uil-github-alt reveal"></i>
+                  <i class="uil uil-linkedin-alt reveal"></i>
+                  <i class="uil uil-instagram reveal"></i>
+               </div>
+            </div>
+            <div class="details">
+               <h2 class="heading">About <span>Myself</span></h2>
+               <p class="reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, atque numquam. Debitis neque quod, nostrum dicta accusamus officiis aliquam! Debitis ad ullam iste tempore officiis mollitia optio, libero aliquid quaerat fugiat repellendus quod amet iusto dolor, eos laudantium provident commodi ipsam nam, temporibus quibusdam aperiam. Doloremque doloribus deserunt consectetur cupiditate debitis iusto harum nostrum. Minima consectetur maiores voluptatibus incidunt alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quia placeat eos nostrum nobis est animi reprehenderit alias, iure quas! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia aliquam corporis quaerat aut beatae reiciendis facilis aliquid iusto nemo fuga reprehenderit libero voluptatum cumque aspernatur cupiditate magni vero quisquam deserunt, sint molestiae maxime obcaecati? Ad totam deserunt repellendus quia animi? 
+                 <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad maiores sapiente architecto fugit reiciendis obcaecati ea ratione, eligendi placeat eum deserunt quasi illo, deleniti mollitia. Blanditiis, tempora. Recusandae vitae, voluptates in fugit culpa harum enim amet similique odit rem! Corporis facilis excepturi omnis perspiciatis voluptatibus.</p>
+               <div class="btn"><a href="#" class="reveal">Know more <i class="uil uil-arrow-right"></i></a></div>
+            </div>
+         </div>
+       </scetion>
+      
+      <!-- projects section -->
+       <section class="Project page" id="Project">
+         <h2 class="heading">Some <span>Projects</span></h2>
+         <div class="wrapper">
+            <div class="boxes reveal">
+               <img src="project1.jpg" alt="">
+               <h2>50+ Responsive Sites</h2>
+               <div class="hoverbox">
+                  <i class="uil uil-web-grid"></i>
+                  <h1>50+ Responsive Sites</h1>
+                  <a href="#">See All <i class="uil uil-arrow-up-right"></i></a>
+               </div>
+            </div>
+            <div class="boxes reveal">
+               <img src="project3.jpg" alt="">
+               <h2>30+ Landing Webpages</h2>
+               <div class="hoverbox">
+                  <i class="uil uil-sitemap"></i>
+                  <h1>30+ Landing Webpages</h1>
+                  <a href="#">See All <i class="uil uil-arrow-up-right"></i></a>
+               </div>
+            </div>
+            <div class="boxes reveal">
+               <img src="project4.jpg" alt="">
+               <h2>15 React Projects</h2>
+               <div class="hoverbox">
+                  <i class="uil uil-react"></i>
+                  <h1>15 React Projects</h1>
+                  <a href="#">See All <i class="uil uil-arrow-up-right"></i></a>
+               </div>
+            </div>
+            <div class="boxes reveal">
+               <img src="project5.jpg" alt="">
+               <h2>8 Machine Learning</h2>
+               <div class="hoverbox">
+                  <i class="uil uil-channel"></i>
+                  <h1>8 Machine Learning</h1>
+                  <a href="#">See All <i class="uil uil-arrow-up-right"></i></a>
+               </div>
+            </div>
+            <div class="boxes reveal">
+               <img src="project2.jpg" alt="">
+               <h2>20+ Ecommerce Pages</h2>
+               <div class="hoverbox">
+                  <i class="uil uil-shopping-bag"></i>
+                  <h1>20+ Ecommerce Pages</h1>
+                  <a href="#">See All <i class="uil uil-arrow-up-right"></i></a>
+               </div>
+            </div>
+            <div class="boxes reveal">
+               <img src="project6.jpg" alt="">
+               <h2>16 DSA + AI Projects</h2>
+               <div class="hoverbox">
+                  <i class="uil uil-robot"></i>
+                  <h1>16 DSA + AI Projects</h1>
+                  <a href="#">See All <i class="uil uil-arrow-up-right"></i></a>
+               </div>
+            </div>
+         </div>
+       </section>
+      
+      <!-- skills section -->
+      <section class="Skills page" id="Skills">
+         <h2 class="heading">Creative <span>Skills</span></h2>
+         <div class="wrapper">
+            <div class="technicalskills">
+               <h2 class="reveal">technical skills</h2>
+               <div class="skillbox">
+                  <div class="reveal">
+                     <p class="text">Typing speed - 80%</p>
+                     <span></span>
+                  </div>
+                  <div class="reveal">
+                     <p class="text">Photoshop - 40%</p>
+                     <span></span>
+                  </div>
+                  <div class="reveal">
+                     <p class="text">MS Office - 60%</p>
+                     <span></span>
+                  </div>
+                  <div class="reveal">
+                     <p class="text">Communication skills - 50%</p>
+                     <span></span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="codingskills">
+               <h2 class="reveal">coding skills</h2>
+               <div class="skillbox">
+                  <div class="reveal">
+                     <span>75%</span>
+                     <p class="text">HTML</p>
+                  </div>
+                  <div class="reveal">
+                     <span>55%</span>
+                     <p class="text">JavaScript</p>
+                  </div>
+                  <div class="reveal">
+                     <span>80%</span>
+                     <p class="text">CSS</p>
+                  </div>
+                  <div class="reveal">
+                     <span>40%</span>
+                     <p class="text">React</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+       </section>
+      
+      <!-- contact section -->
+      <section class="Contact page" id="Contact">
+         <h2 class="heading">Contact <span>Me</span></h2>
+         <div class="wrapper">
+            <div class="contactinfo">
+               <h1 class="reveal">Get in touch</h1>
+               <div class="textinfo reveal">
+                  <i class="uil uil-envelope"></i>
+                  <p>Webkit867@gmail.com</p>
+               </div>
+               <div class="textinfo reveal">
+                  <i class="uil uil-phone-alt"></i>
+                  <p>+1 9896 434 343</p>
+               </div>
+               <div class="textinfo reveal">
+                  <i class="uil uil-map-marker"></i>
+                  <p>Steet No. 604, Rockcrest Ave. Muncie, Los Angles, CA 47302</p>
+               </div>
+            </div>
+            <div class="contactinfo form">
+               <form action="" class="reveal">
+                  <div class="entrybox usernames">
+                     <input type="text" placeholder="First name" required>
+                     <input type="text" placeholder="Last name" required>
+                  </div>
+                  <div class="entrybox">
+                     <input type="email" placeholder="Email address" required>
+                  </div>
+                  <div class="entrybox">
+                     <textarea type="text" placeholder="Enter your queries" required></textarea>
+                  </div>
+                  <button class="submit">Submit <i class="uil uil-message"></i></button>
+               </form>
+            </div>
+         </div>
+         <!-- copyright -->
+          <div class="copyright">
+            <p>Copyright <i class="uil uil-copyright"></i> 2024 by @webkitcoding | All rights reserved</p>
+          </div>
+       </section>
+
+
+      <!-- scroll to top -->
+       <div class="scrolltotop">
+         <a href="#Home"><i class="uil uil-arrow-up"></i></a>
+       </div>
+
+      <!-- theme color palette -->
+       <div class="theme-colors">
+         <span class="colorpicker"></span>
+         <span class="colorpicker"></span>
+         <span class="colorpicker"></span>
+         <span class="colorpicker"></span>
+         <h2>Choose Your Theme <i class="uil uil-arrow-right"></i></h2>
+       </div>
+   </div>
+
+   <!-- link here Javascript external file -->
+    <script src="app.js"></script>
+</body>
+</html>
